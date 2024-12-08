@@ -1,0 +1,31 @@
+# Ignore artifacts:
+node_modules
+dist
+build
+*.log
+*.lock
+
+# Ignore environments
+.env
+*.env
+env.*
+
+# Ignore specific files:
+*.min.js
+*.bundle.js
+
+# Ignore config files (if you want them not to be formatted):
+.prettierrc
+.prettierignore
+
+# Ignore specific directories:
+public/assets
+src/generated
+
+# Ignore all files in a directory:
+**/test/**
+
+# Ignore specific file types:
+*.svg
+*.jpg
+*.png
